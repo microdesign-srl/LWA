@@ -1,0 +1,8 @@
+{
+  "name": "Logistica Web App",
+  "short_name": "LWA",
+  "lang": "it-IT",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#5B89CB"
+}

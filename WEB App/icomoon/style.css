@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?jniqzf') format('truetype'),
+    url('fonts/icomoon.woff?jniqzf') format('woff'),
+    url('fonts/icomoon.svg?jniqzf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+span[class^="icon-"], span[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-AccessDenied:before {
+  content: "\e900";
+  color: #d80027;
+}
+.icon-AcquAlias:before {
+  content: "\e901";
+}
+.icon-Add:before {
+  content: "\e902";
+}
+.icon-AddBlue:before {
+  content: "\e903";
+  color: #0769aa;
+}
+.icon-Aggiorna:before {
+  content: "\e904";
+}
+.icon-AggiornaWhite:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-ArrowDown:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-ArrowUp:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-ArrowUpCircle:before {
+  content: "\e908";
+}
+.icon-Avanti:before {
+  content: "\e909";
+}
+.icon-AvantiBlue:before {
+  content: "\e90a";
+  color: #0769aa;
+}
+.icon-Avatar:before {
+  content: "\e90b";
+}
+.icon-Back:before {
+  content: "\e90c";
+}
+.icon-BackBlue:before {
+  content: "\e90d";
+  color: #0769aa;
+}
+.icon-Box:before {
+  content: "\e90e";
+}
+.icon-BoxBlue:before {
+  content: "\e90f";
+  color: #00389e;
+}
+.icon-Cerca:before {
+  content: "\e910";
+}
+.icon-Cerchio:before {
+  content: "\e911";
+}
+.icon-Check:before {
+  content: "\e912";
+}
+.icon-Checkbox:before {
+  content: "\e913";
+  color: #ffb91f;
+}
+.icon-CheckGreen:before {
+  content: "\e914";
+  color: #91dc5a;
+}
+.icon-Disable:before {
+  content: "\e915";
+  color: #f00;
+}
+.icon-Documentiaperti:before {
+  content: "\e916";
+  color: #295893;
+}
+.icon-Documento:before {
+  content: "\e917";
+}
+.icon-DocumentoAD:before {
+  content: "\e918";
+  color: #97ad6a;
+}
+.icon-DocumentoCA:before {
+  content: "\e919";
+  color: #075cbc;
+}
+.icon-DocumentoCP:before {
+  content: "\e91a";
+  color: #b16461;
+}
+.icon-DocumentoIN:before {
+  content: "\e91b";
+  color: #fe7e33;
+}
+.icon-DocumentoINTMG:before {
+  content: "\e91c";
+  color: #e97b1a;
+}
+.icon-DocumentoPRD:before {
+  content: "\e91d";
+  color: #a8a69c;
+}
+.icon-DocumentoStampa:before {
+  content: "\e91e";
+  color: #295893;
+}
+.icon-DocumentoTR:before {
+  content: "\e91f";
+  color: #452769;
+}
+.icon-EliminaBianco:before {
+  content: "\e920";
+  color: #fff;
+}
+.icon-EliminaGrigio:before {
+  content: "\e921";
+  color: #c7c6bf;
+}
+.icon-Enable:before {
+  content: "\e922";
+  color: #8cc63f;
+}
+.icon-Esci:before {
+  content: "\e923";
+}
+.icon-Filter:before {
+  content: "\e924";
+  color: #fff;
+}
+.icon-Home:before {
+  content: "\e925";
+}
+.icon-Impostazioni:before {
+  content: "\e926";
+}
+.icon-Info:before {
+  content: "\e927";
+}
+.icon-InfoWhite:before {
+  content: "\e928";
+  color: #fff;
+}
+.icon-keyboard:before {
+  content: "\e929";
+}
+.icon-Libra:before {
+  content: "\e92a";
+}
+.icon-Mappa:before {
+  content: "\e92b";
+}
+.icon-Memo:before {
+  content: "\e92c";
+  color: #fff;
+}
+.icon-Menu:before {
+  content: "\e92d";
+}
+.icon-MenuWhite:before {
+  content: "\e92e";
+  color: #fff;
+}
+.icon-Messaggi:before {
+  content: "\e92f";
+  color: #8e1a17;
+}
+.icon-Move:before {
+  content: "\e930";
+  color: #52935a;
+}
+.icon-Next:before {
+  content: "\e931";
+}
+.icon-NonValido:before {
+  content: "\e932";
+  color: #d80027;
+}
+.icon-Phone:before {
+  content: "\e933";
+}
+.icon-PlusBlack:before {
+  content: "\e934";
+}
+.icon-PlusGreen:before {
+  content: "\e935";
+  color: #91dc5a;
+}
+.icon-Prelievo:before {
+  content: "\e936";
+  color: #c16010;
+}
+.icon-Previous:before {
+  content: "\e937";
+}
+.icon-Refresh:before {
+  content: "\e938";
+}
+.icon-Salva:before {
+  content: "\e939";
+}
+.icon-SalvaWhite:before {
+  content: "\e93a";
+  color: #fff;
+}
+.icon-Scatola:before {
+  content: "\e93b";
+}
+.icon-ScatolaBlue:before {
+  content: "\e93c";
+  color: #0769aa;
+}
+.icon-Send:before {
+  content: "\e93d";
+}
+.icon-Spedizione:before {
+  content: "\e93e";
+  color: #528fd9;
+}
+.icon-Stampa:before {
+  content: "\e93f";
+}
+.icon-StampaYellow:before {
+  content: "\e940";
+  color: #d7b87c;
+}
+.icon-StarYellow:before {
+  content: "\e941";
+  color: #efce4a;
+}
+.icon-Tile:before {
+  content: "\e942";
+}
+.icon-Trasferimenti:before {
+  content: "\e943";
+  color: #452769;
+}
+.icon-UnCheckbox:before {
+  content: "\e944";
+  color: #bcbcbc;
+}
+.icon-Valido:before {
+  content: "\e945";
+  color: #459909;
+}
+.icon-WarningOrange:before {
+  content: "\e946";
+  color: #ffda44;
+}
+.icon-WarningRed:before {
+  content: "\e947";
+  color: #f44336;
+}
+.icon-Wifi:before {
+  content: "\e948";
+}

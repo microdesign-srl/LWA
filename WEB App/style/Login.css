@@ -1,0 +1,262 @@
+﻿@font-face {
+    font-family: 'FiraSans-Regular';
+    src: url('../fonts/FiraSans-Regular.ttf') format('truetype');
+}
+
+.mo-pointer {
+    cursor: pointer;
+}
+
+.lg-logincard {
+    margin-top: 30px;
+    margin-left: 5%; /*per ipad cambiare in auto*/
+    margin-right: 5%; /*per ipad cambiare in auto*/
+    max-width: 600px;
+}
+
+.lg-logowki {
+    margin-top: 10px;
+    height: 65px;
+}
+
+.lg-logoarca {
+    padding-top: 30px;
+    width: 140px;
+}
+
+.lg-divinput {
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 30px;
+}
+
+.lg-loginfont {
+    color: #474747;
+    font-weight: 400;
+    font-size: 1.06em;
+    font-family: "FiraSans-Regular";
+}
+
+.lg-input {
+    background-color: #FAFFBD;
+    border: 1px solid #D9D9D9;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 4px;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.06em;
+    font-family: "FiraSans-Regular";
+}
+
+.lg-btnaccedi {
+    background-color: #ED303D;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.06em;
+    font-family: "FiraSans-Regular";
+    border: none;
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+/* Contenitore del checkbox + label + marker */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Nasconde il checkbox di default del browser */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Quadrato del checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 3px;
+    height: 20px;
+    width: 20px;
+}
+
+/* Quando il check è checked */
+.container input:checked ~ .checkmark {
+    background-color: #C8D30B;
+    border: 1px solid #C8D30B;
+}
+
+/* Crea il marker (nascosto quando non è checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Visualizza il marker quando è checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Stile del marker del checkbox */
+.container .checkmark:after {
+    left: 5px;
+    bottom: 3px;
+    width: 8px;
+    height: 15px;
+    border: solid white;
+    border-radius: 4px;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.lg-lblricordapw {
+    color: #000;
+    font-weight: 400;
+    font-size: 0.9em;
+    font-family: "FiraSans-Regular";
+}
+
+.lg-lblcondutil {
+    color: #ED303D;
+    font-weight: 400;
+    font-size: 0.83em;
+    font-family: "FiraSans-Regular";
+    cursor: pointer;
+}
+
+.lg-lblinfo {
+    color: #474747;
+    font-weight: 400;
+    font-size: 0.7em;
+    font-family: "FiraSans-Regular";
+}
+
+.lg-mt-10 {
+    margin-top: 10px;
+}
+
+.lg-mt-30 {
+    margin-top: 30px;
+}
+
+.lg-mt-40 {
+    margin-top: 40px;
+}
+
+.lg-pt-30 {
+    padding-top: 30px;
+}
+
+.lg-mw-500 {
+    max-width: 500px;
+}
+
+.lg-popuptitle {
+    color: #0769AA;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: "FiraSans-Regular";
+}
+
+.lg-popupdom {
+    color: #000;
+    font-weight: 400;
+    font-size: 0.8em;
+    font-family: "FiraSans-Regular";
+}
+
+.lg-btn-blue {
+    border: 1px solid #0769AA;
+    font-weight: 400;
+    font-size: 0.9em;
+    font-family: "FiraSans-Regular";
+    padding: 5px;
+    background-color: #0769AA;
+    color: #FFF;
+    width: 45%;
+    max-width: 150px;
+}
+
+.lg-btn-white {
+    border: 1px solid #0769AA;
+    font-weight: 400;
+    font-size: 0.9em;
+    font-family: "FiraSans-Regular";
+    padding: 5px;
+    background-color: #FFF;
+    color: #0769AA;
+    width: 45%;
+    max-width: 150px;
+}
+
+/* Per Tablet */
+@media screen and (min-width: 650px) {
+
+    .lg-logincard {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lg-btn-blue, .lg-btn-white {
+        width: 100px;
+    }
+
+}
+
+/* Per dispositivi piccoli */
+@media screen and (max-width: 651px) {
+
+    .lg-logincard {
+        margin-top: 5px;
+    }
+
+    .lg-logowki {
+        margin-top: 5px;
+        height: 2em;
+    }
+
+    .lg-logoarca {
+        padding-top: 5px;
+        width: 3.4em;
+    }
+
+    .lg-divinput {
+        margin-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    .lg-loginfont {
+        font-size: 0.7em;
+    }
+
+    .lg-btnaccedi {
+        font-size: 0.7em;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .checkmark {
+        width: 16px;
+        height: 16px;
+    }
+
+    .lg-lblricordapw, .lg-lblinfo {
+        font-size: 0.6em;
+    }    
+}

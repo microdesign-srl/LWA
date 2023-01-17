@@ -1,0 +1,74 @@
+******************************************************
+**     Microdesign LWA Extension Class Template   **
+** 		   (c) 2000-2017 Microdesign S.r.l.			**
+******************************************************
+
+* Estensione creazione documenti di LWA
+Define Class c_log_ext As Custom
+
+	Hidden Procedure Init()
+		* Identificativo della rilevazione che si sta processando
+		AddProperty(This, 'Id_xMORL', 0)
+	Endproc
+
+	* Eseguita prima della creazione del documento e prima della creazione dei lotti
+	Procedure CreateDocument_Lotti_Before()
+
+	Endproc
+
+	* Eseguita prima della creazione del documento e dopo la creazione dei lotti
+	Procedure CreateDocument_Lotti_After()
+
+	Endproc
+
+	* Eseguita nel momento in cui viene ricercato il prelievo da utilizzare con la lettura corrente (tutti i campi sono presenti in oRec)
+	Procedure CreateDocument_FindPrel(bFound, oRec)
+
+	Endproc
+
+	* Eseguita prima di generare il documento in ARCA e subito dopo preparato e ordinato tutte le righe
+	* Elenco dei cursori disponibili:
+	* _DoTes		Testa del documento (il campo Id_DoTes_New deve essere .null.)
+	* _DoRigL		Righe con e senza prelievo ordinate
+	Procedure Ordered_Rows()
+
+		* codice di esempio (togliere dal REM) .....................................
+		*!*	Select _DoRigL
+		*!*	Browse
+		*!*	Messagebox("Codice eseguito prima della creazione del documento con tutte le righe (con e senza prelievo) ordinate in _DoRigL.")
+		* .......................................................
+
+	Endproc
+
+	* Eseguita prima di generare il documento in ARCA
+	* Elenco dei cursori disponibili:
+	* _DoTes		Testa del documento (il campo Id_DoTes_New deve essere .null.)
+	* _DoRig		Righe con prelievo
+	* _DoRigL		Righe senza prelievo
+	Procedure CreateDocument_Before()
+
+		* codice di esempio (togliere dal REM) .....................................
+		*!*	Select _DoTes
+		*!*	Browse
+		*!*	Messagebox("Codice eseguito prima della creazione del documento.")
+		* .......................................................
+
+	Endproc
+
+
+	* Eseguita dopo la generarazione del documento in ARCA
+	* Elenco dei cursori disponibili:
+	* _DoTes		Testa del documento (il campo Id_DoTes_New contiene l'identificativo del documento creato in Arca)
+	* _DoRig		Righe con prelievo
+	* _DoRigL		Righe senza prelievo
+	Procedure CreateDocument_After()
+
+		* codice di esempio (togliere dal REM) .....................................
+		*!*	Select _DoTes
+		*!*	Browse
+		*!*	Messagebox("Codice eseguito dopo la creazione del documento con id: " + Transform(_DoTes.Id_DoTes_New))
+		* .......................................................
+
+	Endproc
+
+Enddefine
